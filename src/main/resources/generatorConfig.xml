@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+    <context id="context">
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://47.104.236.197:3306/aliyun"
+                        userId="root" password="yxs"/>
+        <javaModelGenerator targetPackage="com.madhouse.entity"
+                            targetProject="src/main/java"/>
+        <sqlMapGenerator targetPackage="mapper"
+                         targetProject="src/main/resources"/>
+        <javaClientGenerator targetPackage="com.madhouse.mapper"
+                             targetProject="src/main/java" type="XMLMAPPER"/>
+
+        <!--<table schema="" tableName="pm_app_category" domainObjectName="PmAppCategory">-->
+        <!--<columnOverride column="is_parent" jdbcType="INTEGER" javaType="Boolean"/>-->
+        <!--</table>-->
+
+        <!--<table schema="" tableName="android_app_category" domainObjectName="AndroidAppCategory">-->
+        <!--</table>-->
+
+        <!--<table schema="" tableName="ios_app_category" domainObjectName="IosAppCategory">-->
+        <!--</table>-->
+
+
+        <!--<table schema="" tableName="adsinfo_library_page" domainObjectName="AdsinfoLibraryPage">-->
+        <!--</table>-->
+
+        <!--<table schema="" tableName="android_app_category" domainObjectName="AndroidAppCategory">-->
+        <!--</table>-->
+
+        <!--<table schema="" tableName="adsinfo_report" domainObjectName="CrawlerAdsinfoReport">-->
+        <!--</table>-->
+
+        <!--<table schema="" tableName="adsinfo_slogan" domainObjectName="CrawlerAdsinfoSlogan">-->
+        <!--</table>-->
+
+        <!--<table schema="" tableName="app_detail_history" domainObjectName="CrawlerAppDetailHistory">-->
+        <!--<columnOverride column="online" jdbcType="INTEGER" javaType="Boolean"/>-->
+        <!--</table>-->
+
+        <!--<table schema="" tableName="app_detail" domainObjectName="CrawlerAppDetail">-->
+        <!--</table>-->
+
+        <!--<table schema="" tableName="app_developer" domainObjectName="CrawlerAppDeveloper">-->
+        <!--</table>-->
+
+        <!--<table schema="" tableName="app_icon" domainObjectName="CrawlerAppIcon">-->
+        <!--</table>-->
+
+        <!--<table schema="" tableName="publisher" domainObjectName="CrawlerPublisher">-->
+        <!--</table>-->
+
+        <!--<table schema="" tableName="rel_app_detail_history_material" domainObjectName="CrawlerRelAppDetailHistoryMaterial">-->
+        <!--</table>-->
+
+        <!--<table schema="" tableName="rel_app_detail_material" domainObjectName="CrawlerRelAppDetailMaterial">-->
+        <!--</table>-->
+
+        <!--<table schema="" tableName="rel_app_detail_material_summary" domainObjectName="CrawlerRelAppDetailMaterialSummary">-->
+        <!--</table>-->
+
+        <!--<table schema="" tableName="rel_dev_app" domainObjectName="CrawlerRelDevApp">-->
+        <!--<columnOverride column="os_type" jdbcType="INTEGER" javaType="Integer"/>-->
+        <!--</table>-->
+
+        <!--<table schema="" tableName="store_url" domainObjectName="CrawlerStoreUrl">-->
+        <!--</table>-->
+
+        <!--<table schema="" tableName="crawl_material" domainObjectName="CrawlMaterial">-->
+        <!--</table>-->
+
+        <!--<table schema="" tableName="ios_app_category" domainObjectName="IosAppCategory">-->
+        <!--</table>-->
+
+        <!--<table schema="" tableName="pm_app_category" domainObjectName="PmAppCategory">-->
+        <!--<columnOverride column="is_parent" jdbcType="INTEGER" javaType="Boolean"/>-->
+        <!--</table>-->
+
+        <!--<table schema="" tableName="rel_app_detail_category" domainObjectName="RelAppDetailCategory">-->
+        <!--</table>-->
+
+
+        <!--<table schema="" tableName="rel_crawl_material_category" domainObjectName="RelCrawlMaterialCategory">-->
+        <!--</table>-->
+
+        <!--<table schema="" tableName="rel_crawl_material_country" domainObjectName="RelCrawlMaterialCountry">-->
+        <!--</table>-->
+
+        <!--<table schema="" tableName="rel_crawl_material_tab_num" domainObjectName="RelCrawlMaterialTabNum">-->
+        <!--</table>-->
+
+        <table schema="" tableName="student" domainObjectName="Student">
+        </table>
+
+    </context>
+</generatorConfiguration>
