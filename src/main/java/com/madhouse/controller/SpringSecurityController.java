@@ -13,7 +13,7 @@ public class SpringSecurityController {
 
     @RequestMapping(value = "api/springboot/hello")
     public String hello() {
-        return "hello,springboot test security!";
+        return "hello,springboot test security!!";
     }
 
     @RequestMapping(value = "api/springboot/user")
