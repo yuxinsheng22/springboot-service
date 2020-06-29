@@ -22,6 +22,7 @@ public class ListenerMsgConfirm implements ChannelAwareMessageListener {
     @RabbitHandler
     public void onMessage(Message message, Channel channel) throws Exception {
         try {
+            log.info("消息来了...");
             int a = 1 / 0;
             channel.basicAck(message.getMessageProperties().getDeliveryTag(), true);
             System.out.println("消费消息确认" + message.getMessageProperties().getConsumerQueue() + "，接收到了回调方法");
